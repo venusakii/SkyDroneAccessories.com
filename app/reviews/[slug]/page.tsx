@@ -17,8 +17,9 @@ const products = {
       "High-performance carbon fiber propellers designed for DJI Mavic 3 series drones. Engineered for enhanced durability and flight stability, ideal for demanding environments.",
     images: [
       "https://m.media-amazon.com/images/I/61lYxreYBVL._AC_SX679_.jpg",
-      "/lichifit-propeller-close-up.jpg",
-      "/mavic-3-propeller-installation.jpg",
+      "/propeller-close-up-1.jpg",
+      "/propeller-installation-1.jpg",
+      "/propeller-package-1.jpg",
     ],
     features: [
       "High-strength carbon fiber",
@@ -59,8 +60,9 @@ const products = {
       "Landing gear extensions for DJI Mavic Air 2, providing additional ground clearance for safer landings on uneven terrain. Lightweight and easy to install.",
     images: [
       "https://m.media-amazon.com/images/I/41tREL8T6AL._AC_SX679_.jpg",
-      "/pgytech-landing-gear-installed.jpg",
-      "/pgytech-landing-gear-close-up.jpg",
+      "/landing-gear-close-up-2.jpg",
+      "/landing-gear-installed-2.jpg",
+      "/landing-gear-package-2.jpg",
     ],
     features: [
       "Increases ground clearance by 35mm",
@@ -101,8 +103,9 @@ const products = {
       "Set of 8 split ND filters for DJI Mavic 3, designed for precise light control and vibrant aerial footage. Includes ND and ND/PL filters with durable coatings.",
     images: [
       "https://m.media-amazon.com/images/I/71xiSdDlLzL._AC_SX679_.jpg",
-      "/freewell-nd-filter-close-up.jpg",
-      "/freewell-nd-filter-installed.jpg",
+      "/nd-filters-close-up-3.jpg",
+      "/nd-filters-installed-3.jpg",
+      "/nd-filters-case-3.jpg",
     ],
     features: [
       "8 filters: ND4, ND8, ND16, ND32, ND4/PL, ND8/PL, ND16/PL, ND32/PL",
@@ -143,8 +146,9 @@ const products = {
       "Rugged waterproof hard case with custom foam for secure storage and transport of DJI Mavic 3 and accessories. IP67-rated for extreme conditions.",
     images: [
       "https://m.media-amazon.com/images/I/81SJl3u9w6L._AC_SX679_.jpg",
-      "/lekufee-case-interior-foam.jpg",
-      "/lekufee-case-closed.jpg",
+      "/case-interior-foam-4.jpg",
+      "/case-closed-waterproof-4.jpg",
+      "/case-with-drone-4.jpg",
     ],
     features: [
       "IP67 waterproof and dustproof",
@@ -185,8 +189,9 @@ const products = {
       "Cordless electric screwdriver with 155 bits for precise drone repairs and maintenance. Compact, powerful, and includes a charging case.",
     images: [
       "https://m.media-amazon.com/images/I/718h0QJBobL._AC_SX679_PIbundle-155,TopRight,0,0_SH20_.jpg",
-      "/yesright-screwdriver-in-use.jpg",
-      "/yesright-screwdriver-case.jpg",
+      "/screwdriver-bits-close-up-5.jpg",
+      "/screwdriver-in-use-5.jpg",
+      "/screwdriver-case-5.jpg",
     ],
     features: [
       "155 precision bits included",
@@ -227,8 +232,9 @@ const products = {
       "Adjustable lanyard for DJI Mavic 3 controller, providing hands-free convenience and comfort during extended drone operation.",
     images: [
       "https://m.media-amazon.com/images/I/812Pjt88PpL._AC_SX679_.jpg",
-      "/startrc-lanyard-in-use.jpg",
-      "/startrc-lanyard-adjustable.jpg",
+      "/lanyard-adjustable-6.jpg",
+      "/lanyard-in-use-6.jpg",
+      "/lanyard-buckle-6.jpg",
     ],
     features: [
       "Adjustable length (45-70cm)",
@@ -269,8 +275,9 @@ const products = {
       "Durable backpack designed for drone and camera gear, with customizable compartments and weather-resistant materials for safe transport.",
     images: [
       "https://m.media-amazon.com/images/I/61+MalP85NL._AC_SX679_.jpg",
-      "/lowepro-backpack-interior.jpg",
-      "/lowepro-backpack-on-trail.jpg",
+      "/backpack-interior-7.jpg",
+      "/backpack-on-trail-7.jpg",
+      "/backpack-compartments-7.jpg",
     ],
     features: [
       "Customizable dividers",
@@ -296,7 +303,7 @@ const products = {
         avatar: "/drone-pilot.png",
         rating: 5,
         date: "2 weeks ago",
-        text: "The Lowepro DroneGuard Backpack is perfect for travel. It’s sturdy, well-organized, and fits all my gear comfortably.",
+        text: "The Lowepro DroneGuard Backpack is perfect for travel. It's sturdy, well-organized, and fits all my gear comfortably.",
       },
     ],
   },
@@ -311,8 +318,9 @@ const products = {
       "High-capacity intelligent battery for DJI Mavic Air, offering extended flight time and reliable performance with built-in safety features.",
     images: [
       "https://m.media-amazon.com/images/I/61eO56vrVeL._AC_SX679_.jpg",
-      "/expertpower-battery-installed.jpg",
-      "/expertpower-battery-charging.jpg",
+      "/battery-close-up-8.jpg",
+      "/battery-installed-8.jpg",
+      "/battery-charging-8.jpg",
     ],
     features: [
       "High-capacity 2375mAh",
@@ -338,7 +346,7 @@ const products = {
         avatar: "/cinematographer.jpg",
         rating: 5,
         date: "1 month ago",
-        text: "The ExpertPower High Capacity Battery extends my drone’s flight time significantly. Reliable and easy to install.",
+        text: "The ExpertPower High Capacity Battery extends my drone's flight time significantly. Reliable and easy to install.",
       },
     ],
   },
@@ -353,8 +361,9 @@ const products = {
       "Lanyard with integrated sun hood for DJI controllers, ensuring screen visibility and hands-free operation during outdoor drone flights.",
     images: [
       "https://m.media-amazon.com/images/I/61Y3JUgANiL._AC_SX679_.jpg",
-      "/arzroic-lanyard-in-use.jpg",
-      "/arzroic-sun-hood-close-up.jpg",
+      "/lanyard-sun-hood-9.jpg",
+      "/lanyard-controller-9.jpg",
+      "/sun-hood-folded-9.jpg",
     ],
     features: [
       "Adjustable lanyard (45-70cm)",
@@ -465,18 +474,27 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                 />
               </div>
               <div className="grid grid-cols-3 gap-4">
-                {product.images.slice(1).map((image, index) => (
-                  <div
-                    key={index}
-                    className="relative aspect-square rounded-lg overflow-hidden border border-border/40 bg-card/50 backdrop-blur cursor-pointer hover:border-primary/40 transition-colors"
-                  >
-                    <img
-                      src={image || "/placeholder.svg"}
-                      alt={`${product.name} ${index + 2}`}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                ))}
+                <div className="relative aspect-square rounded-lg overflow-hidden border border-border/40 bg-card/50 backdrop-blur cursor-pointer hover:border-primary/40 transition-colors">
+                  <img
+                    src={product.images[1] || "/placeholder.svg"}
+                    alt={`${product.name} detail 1`}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="relative aspect-square rounded-lg overflow-hidden border border-border/40 bg-card/50 backdrop-blur cursor-pointer hover:border-primary/40 transition-colors">
+                  <img
+                    src={product.images[2] || "/placeholder.svg"}
+                    alt={`${product.name} detail 2`}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="relative aspect-square rounded-lg overflow-hidden border border-border/40 bg-card/50 backdrop-blur cursor-pointer hover:border-primary/40 transition-colors">
+                  <img
+                    src={product.images[3] || "/placeholder.svg"}
+                    alt={`${product.name} detail 3`}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
             </div>
 
