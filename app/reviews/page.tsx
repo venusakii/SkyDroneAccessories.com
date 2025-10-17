@@ -11,8 +11,9 @@ export default function ReviewsPage() {
       avatar: "/professional-photographer.png",
       rating: 5,
       date: "2 weeks ago",
-      text: "The SwellPro propellers are fantastic for my Fisherman drone. They’re durable and improve flight stability, perfect for coastal shoots.",
-      product: "SwellPro Propellers for Fisherman Drone",
+      text: "The LICHIFIT Carbon Fiber Propellers are fantastic for my drone. They’re durable and improve flight stability, perfect for coastal shoots.",
+      product: "LICHIFIT Carbon Fiber Propellers for Mavic 3",
+      image: "https://m.media-amazon.com/images/I/61lYxreYBVL._AC_SX679_.jpg",
     },
     {
       id: 2,
@@ -21,8 +22,9 @@ export default function ReviewsPage() {
       avatar: "/female-pilot.png",
       rating: 5,
       date: "1 month ago",
-      text: "The Urth magnetic CPL filter is a game-changer. Easy to attach and removes glare perfectly for vibrant aerial shots.",
-      product: "Urth 82mm Magnetic CPL Filter",
+      text: "The PGYTECH Landing Gear Extensions are a game-changer. They provide extra clearance and stability for safe landings on rough terrain.",
+      product: "PGYTECH Landing Gear Extensions for Mavic Air 2",
+      image: "https://m.media-amazon.com/images/I/41tREL8T6AL._AC_SX679_.jpg",
     },
     {
       id: 3,
@@ -31,8 +33,9 @@ export default function ReviewsPage() {
       avatar: "/content-creator-workspace.png",
       rating: 5,
       date: "3 weeks ago",
-      text: "The Lykus waterproof case is a lifesaver. Keeps my drone safe in harsh conditions with plenty of room for accessories.",
-      product: "Lykus HC-4410 Waterproof Case",
+      text: "The Freewell 8-Pack Split ND Filters enhance my drone footage dramatically. Smooth adjustments and vibrant colors!",
+      product: "Freewell 8-Pack Split ND Filters for Mavic 3",
+      image: "https://m.media-amazon.com/images/I/71xiSdDlLzL._AC_SX679_.jpg",
     },
     {
       id: 4,
@@ -41,8 +44,9 @@ export default function ReviewsPage() {
       avatar: "/female-videographer.jpg",
       rating: 5,
       date: "2 months ago",
-      text: "The charging hub is a must-have. Charges multiple devices quickly and is super convenient for on-location shoots.",
-      product: "Charging Hub for Multiple Stations",
+      text: "The Lekufee Waterproof Carrying Case is a lifesaver. Keeps my drone and accessories safe in harsh conditions with plenty of room.",
+      product: "Lekufee Waterproof Carrying Case for Mavic 3",
+      image: "https://m.media-amazon.com/images/I/81SJl3u9w6L._AC_SX679_.jpg",
     },
     {
       id: 5,
@@ -51,8 +55,9 @@ export default function ReviewsPage() {
       avatar: "/landscape-photographer.png",
       rating: 5,
       date: "1 week ago",
-      text: "The K&F Concept ND/CPL filter enhances my drone footage dramatically. Smooth adjustments and no color shift!",
-      product: "K&F Concept 67mm Variable ND/CPL Filter",
+      text: "The YesRight Electric Screwdriver is a must-have for quick drone repairs. Compact, powerful, and precise!",
+      product: "YesRight Electric Screwdriver",
+      image: "https://m.media-amazon.com/images/I/718h0QJBobL._AC_SX679_PIbundle-155,TopRight,0,0_SH20_.jpg",
     },
     {
       id: 6,
@@ -61,8 +66,9 @@ export default function ReviewsPage() {
       avatar: "/adventure-vlogger.jpg",
       rating: 5,
       date: "3 weeks ago",
-      text: "The CQT landing pad is durable and reflective, making landings in low light so much easier. Highly recommend!",
-      product: "CQT Double-Sided Landing Pad",
+      text: "The STARTRC Controller Lanyard is super convenient. Adjustable and comfortable for long drone sessions.",
+      product: "STARTRC Controller Lanyard for Mavic 3",
+      image: "https://m.media-amazon.com/images/I/812Pjt88PpL._AC_SX679_.jpg",
     },
     {
       id: 7,
@@ -71,8 +77,9 @@ export default function ReviewsPage() {
       avatar: "/drone-pilot.png",
       rating: 5,
       date: "2 weeks ago",
-      text: "The gimbal bumper saved my drone’s camera during a rough landing. Lightweight and easy to install.",
-      product: "Anti-Collision Gimbal Bumper",
+      text: "The Lowepro DroneGuard Backpack is perfect for travel. It’s sturdy, well-organized, and fits all my gear comfortably.",
+      product: "Lowepro DroneGuard Camera Backpack",
+      image: "https://m.media-amazon.com/images/I/61+MalP85NL._AC_SX679_.jpg",
     },
     {
       id: 8,
@@ -81,8 +88,9 @@ export default function ReviewsPage() {
       avatar: "/cinematographer.jpg",
       rating: 5,
       date: "1 month ago",
-      text: "The TP-Link range extender boosted my drone’s signal significantly. Perfect for long-distance shoots.",
-      product: "TP-Link WiFi Range Extender",
+      text: "The ExpertPower High Capacity Battery extends my drone’s flight time significantly. Reliable and easy to install.",
+      product: "ExpertPower High Capacity Battery for Mavic Air",
+      image: "https://m.media-amazon.com/images/I/61eO56vrVeL._AC_SX679_.jpg",
     },
     {
       id: 9,
@@ -91,103 +99,109 @@ export default function ReviewsPage() {
       avatar: "/hobbyist-drone.png",
       rating: 5,
       date: "2 weeks ago",
-      text: "The JHTC battery hub is a lifesaver for my Mini 3 Pro. Charges fast and keeps my batteries organized.",
-      product: "JHTC Mini 3/4 Pro Battery Hub",
+      text: "The Arzroic Lanyard with Sun Hood is a lifesaver for outdoor shoots. Keeps the controller secure and screen visible.",
+      product: "Arzroic Controller Lanyard with Sun Hood",
+      image: "https://m.media-amazon.com/images/I/61Y3JUgANiL._AC_SX679_.jpg",
     },
   ]
 
-const productReviews = [
+  const productReviews = [
     {
       id: 1,
-      slug: "mukikim-rock-and-roll-piano",
-      name: "MukikiM Rock and Roll It Play by Color Piano",
-      image: "https://m.media-amazon.com/images/I/81r69l8pPeL._AC_SX679_.jpg",
-      rating: 4.4,
-      reviewCount: 225,
-      price: "$59.99",
-      description: "Portable, flexible piano with color-coded keys for easy learning. Great for kids to explore music anywhere.",
+      slug: "lichifit-carbon-fiber-propellers",
+      name: "LICHIFIT Carbon Fiber Propellers for Mavic 3",
+      image: "https://m.media-amazon.com/images/I/61lYxreYBVL._AC_SX679_.jpg",
+      rating: 4.8,
+      reviewCount: 156,
+      price: "$29.99",
+      description:
+        "High-performance carbon fiber propellers designed for DJI Mavic 3 series drones, engineered for enhanced durability and flight stability.",
     },
     {
       id: 2,
-      slug: "fisher-price-infant-trio",
-      name: "Fisher-Price Classic Infant Trio Gift Set",
-      image: "https://m.media-amazon.com/images/I/61gg-o7oPML._AC_SX679_.jpg",
-      rating: 4.8,
-      reviewCount: 1234,
-      price: "$29.99",
-      description: "Includes xylophone, tambourine, and maracas. Perfect for infants to develop motor skills and rhythm.",
+      slug: "pgytech-landing-gear-extensions",
+      name: "PGYTECH Landing Gear Extensions for Mavic Air 2",
+      image: "https://m.media-amazon.com/images/I/41tREL8T6AL._AC_SX679_.jpg",
+      rating: 4.7,
+      reviewCount: 289,
+      price: "$19.95",
+      description:
+        "Landing gear extensions providing additional ground clearance for safer landings on uneven terrain.",
     },
     {
       id: 3,
-      slug: "stoies-musical-instruments",
-      name: "Stoie's Musical Instruments Set for Toddlers",
-      image: "https://m.media-amazon.com/images/I/71cPoZ9534L._AC_SX679_.jpg",
-      rating: 4.6,
-      reviewCount: 587,
-      price: "$32.99",
-      description: "Wooden instrument set with xylophone, tambourine, and more. Safe and durable for toddler music play.",
+      slug: "freewell-8-pack-split-nd-filters",
+      name: "Freewell 8-Pack Split ND Filters for Mavic 3",
+      image: "https://m.media-amazon.com/images/I/71xiSdDlLzL._AC_SX679_.jpg",
+      rating: 4.9,
+      reviewCount: 342,
+      price: "$99.99",
+      description:
+        "Set of 8 split ND filters for precise light control and vibrant aerial footage with durable coatings.",
     },
     {
       id: 4,
-      slug: "keyboard-xylophone-set",
-      name: "Keyboard & Xylophone Musical Instrument Set",
-      image: "https://m.media-amazon.com/images/I/71sU6VdZH2L._AC_SX679_.jpg",
-      rating: 4.3,
-      reviewCount: 412,
-      price: "$39.99",
-      description: "Dual keyboard and xylophone toy for kids. Encourages musical creativity and early learning.",
+      slug: "lekufee-waterproof-carrying-case",
+      name: "Lekufee Waterproof Carrying Case for Mavic 3",
+      image: "https://m.media-amazon.com/images/I/81SJl3u9w6L._AC_SX679_.jpg",
+      rating: 4.8,
+      reviewCount: 215,
+      price: "$139.99",
+      description:
+        "Rugged waterproof hard case with custom foam for secure storage and transport in extreme conditions.",
     },
     {
       id: 5,
-      slug: "loog-mini-acoustic-guitar",
-      name: "Loog Mini Acoustic Guitar for Children",
-      image: "https://m.media-amazon.com/images/I/714ZXMfWbXL._AC_SX679_.jpg",
+      slug: "yesright-electric-screwdriver",
+      name: "YesRight Electric Screwdriver",
+      image: "https://m.media-amazon.com/images/I/718h0QJBobL._AC_SX679_PIbundle-155,TopRight,0,0_SH20_.jpg",
       rating: 4.7,
-      reviewCount: 896,
-      price: "$89.00",
-      description: "3-string acoustic guitar designed for kids. Easy to play with app-based learning support.",
+      reviewCount: 432,
+      price: "$49.99",
+      description: "Cordless electric screwdriver with 155 precision bits for drone repairs and maintenance.",
     },
     {
       id: 6,
-      slug: "electric-drum-set",
-      name: "Electric Drum Set with Recording",
-      image: "https://m.media-amazon.com/images/I/71tKXDqEnIL._AC_SX679_.jpg",
-      rating: 4.5,
-      reviewCount: 321,
-      price: "$69.99",
-      description: "Electronic drum set with recording feature and built-in speaker. Ideal for young drummers.",
+      slug: "startrc-controller-lanyard",
+      name: "STARTRC Controller Lanyard for Mavic 3",
+      image: "https://m.media-amazon.com/images/I/812Pjt88PpL._AC_SX679_.jpg",
+      rating: 4.8,
+      reviewCount: 198,
+      price: "$15.99",
+      description: "Adjustable lanyard providing hands-free convenience and comfort during extended drone operation.",
     },
     {
       id: 7,
-      slug: "fisher-price-piano-gym",
-      name: "Fisher-Price Deluxe Kick & Play Piano Gym",
-      image: "https://m.media-amazon.com/images/I/81CXYaraFDL._AC_SX679_.jpg",
-      rating: 4.8,
-      reviewCount: 2456,
-      price: "$49.99",
-      description: "Musical playmat with piano keys for infants. Promotes sensory development with lights and sounds.",
+      slug: "lowepro-droneguard-backpack",
+      name: "Lowepro DroneGuard Camera Backpack",
+      image: "https://m.media-amazon.com/images/I/61+MalP85NL._AC_SX679_.jpg",
+      rating: 4.9,
+      reviewCount: 176,
+      price: "$129.95",
+      description:
+        "Durable backpack with customizable compartments and weather-resistant materials for safe transport.",
     },
     {
       id: 8,
-      slug: "taimasi-instruments-set",
-      name: "TAIMASI Musical Instruments Set",
-      image: "https://m.media-amazon.com/images/I/817-cDUVLWL._AC_SX679_.jpg",
-      rating: 4.5,
-      reviewCount: 672,
-      price: "$29.99",
-      description: "Comprehensive percussion set with tambourine, xylophone, and more. Great for group play.",
+      slug: "expertpower-high-capacity-battery",
+      name: "ExpertPower High Capacity Battery for Mavic Air",
+      image: "https://m.media-amazon.com/images/I/61eO56vrVeL._AC_SX679_.jpg",
+      rating: 4.6,
+      reviewCount: 567,
+      price: "$89.99",
+      description: "High-capacity intelligent battery offering extended flight time with built-in safety features.",
     },
     {
       id: 9,
-      slug: "bluewood-montessori-climber",
-      name: "BlueWood Triangle Foldable Climbing Montessori",
-      image: "https://m.media-amazon.com/images/I/716Wr3MdeKL._AC_SX679_.jpg",
-      rating: 4.6,
-      reviewCount: 134,
-      price: "$129.99",
-      description: "Montessori climbing triangle with musical elements. Encourages physical and sensory development.",
+      slug: "arzroic-controller-lanyard-sun-hood",
+      name: "Arzroic Controller Lanyard with Sun Hood",
+      image: "https://m.media-amazon.com/images/I/61Y3JUgANiL._AC_SX679_.jpg",
+      rating: 4.8,
+      reviewCount: 334,
+      price: "$22.99",
+      description: "Lanyard with integrated sun hood ensuring screen visibility and hands-free operation outdoors.",
     },
-]
+  ]
 
   return (
     <div className="min-h-screen bg-background">
@@ -217,10 +231,10 @@ const productReviews = [
             <a href="/reviews" className="text-primary">
               Reviews
             </a>
-            <a href="/#technology" className="hover:text-primary transition-colors">
+            <a href="/about" className="hover:text-primary transition-colors">
               About
             </a>
-            <a href="/#contact" className="hover:text-primary transition-colors">
+            <a href="/contact" className="hover:text-primary transition-colors">
               Contact
             </a>
           </nav>
@@ -299,7 +313,7 @@ const productReviews = [
             Join thousands of satisfied pilots who trust SkyDroneAccessories for premium quality
           </p>
           <a
-            href="/#categories"
+            href="/"
             className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-full font-semibold transition-colors"
           >
             Shop Now
