@@ -7,19 +7,19 @@ const blogPosts = [
   {
     title: "How to Increase Flight Time",
     excerpt: "Discover proven techniques to extend your drone's battery life and maximize flight duration.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/blog-flight-time.jpg",
     category: "Tips & Tricks",
   },
   {
     title: "Best ND Filters for Sunset Photography",
     excerpt: "Learn which ND filters produce the most stunning golden hour and sunset aerial shots.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/blog-nd-filters-sunset.jpg",
     category: "Photography",
   },
   {
     title: "Propeller Safety and Maintenance",
     excerpt: "Essential guide to keeping your propellers in top condition and ensuring safe flights.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/blog-propeller-maintenance.jpg",
     category: "Maintenance",
   },
 ]

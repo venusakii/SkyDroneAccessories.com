@@ -27,12 +27,6 @@ const comparisonData = [
     autel: true,
     holyStone: false,
   },
-  {
-    feature: "Price",
-    dji: "$1,599",
-    autel: "$1,299",
-    holyStone: "$399",
-  },
 ]
 
 export function ComparisonSection() {

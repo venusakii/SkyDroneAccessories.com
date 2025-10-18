@@ -2,27 +2,27 @@
 
 const galleryImages = [
   {
-    src: "/drone-aerial-mountain-landscape.jpg",
+    src: "/gallery-mountain-expedition.jpg",
     caption: "Mountain Expedition",
   },
   {
-    src: "/drone-beach-sunset-aerial.jpg",
+    src: "/gallery-coastal-sunset.jpg",
     caption: "Coastal Sunset",
   },
   {
-    src: "/drone-city-skyline-night.jpg",
+    src: "/gallery-urban-exploration.jpg",
     caption: "Urban Exploration",
   },
   {
-    src: "/drone-forest-aerial-view.jpg",
+    src: "/gallery-forest-canopy.jpg",
     caption: "Forest Canopy",
   },
   {
-    src: "/drone-desert-dunes-aerial.jpg",
+    src: "/gallery-desert-dunes.jpg",
     caption: "Desert Dunes",
   },
   {
-    src: "/placeholder.svg?height=600&width=800",
+    src: "/gallery-waterfall-vista.jpg",
     caption: "Waterfall Vista",
   },
 ]

@@ -189,7 +189,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Phone</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+1 (770) 571-3920</p>
                     <p className="text-muted-foreground text-sm">Mon-Fri, 9AM-6PM EST</p>
                   </div>
                 </div>
@@ -202,8 +202,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Address</h3>
-                    <p className="text-muted-foreground">123 Aviation Boulevard</p>
-                    <p className="text-muted-foreground">San Francisco, CA 94102</p>
+                    <p className="text-muted-foreground">2315 Lakeland Park Drive</p>
+                    <p className="text-muted-foreground">Kempton, IL 60946</p>
                     <p className="text-muted-foreground">United States</p>
                   </div>
                 </div>
@@ -275,7 +275,7 @@ export default function ContactPage() {
                 <div className="text-center">
                   <MapPin className="w-16 h-16 text-primary mx-auto mb-4" />
                   <p className="text-xl font-bold">Visit Our Showroom</p>
-                  <p className="text-muted-foreground">123 Aviation Boulevard, San Francisco, CA 94102</p>
+                  <p className="text-muted-foreground">2315 Lakeland Park Drive, Kempton, IL 60946</p>
                 </div>
               </div>
             </Card>
